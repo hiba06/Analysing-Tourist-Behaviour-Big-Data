@@ -3,7 +3,7 @@ scikit-learn>=1.5.0
 k-means-constrained==0.9.1
 nltk==3.8.1
 matplotlib>=3.7.1
-pandas>=2.0.0
+pandas>=2.2.2
 shap>=0.45.0
 jupyter==1.0.0
 seaborn>=0.12.2
