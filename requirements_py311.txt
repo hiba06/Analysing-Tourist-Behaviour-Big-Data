@@ -2,7 +2,6 @@ numpy==1.24.3
 pyspark==3.4.1
 scikit-learn==1.2.2
 k-means-constrained==0.9.1
-ortools==9.6.2534
 nltk==3.8.1
 matplotlib==3.7.1
 pandas==2.0.3
