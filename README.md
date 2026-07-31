@@ -49,7 +49,8 @@ The project is built using:
 ├── .gitignore                   # Files and directories ignored by Git (caches, log files, checkpoints)
 ├── download_nltk.bat            # Windows batch script to trigger NLTK downloads
 ├── nltkdownload.py              # Python script containing NLTK download logic
-├── requirements.txt             # Standard pip dependency list
+├── requirements.txt             # Standard pip dependency list (for Python 3.7)
+├── requirements_py311.txt       # Updated pip dependency list (for Python 3.11)
 ├── run.bat                      # Windows batch script to launch Jupyter Notebook
 ├── Tourist.ipynb                # Main Jupyter Notebook containing the code and analysis
 └── README.md                    # Project documentation (this file)
@@ -85,10 +86,17 @@ cd Analysing-Tourist-Behaviour
 ```
 
 ### 3. Install Dependencies
-Open your command prompt/terminal and run:
-```bash
-pip install -r requirements.txt
-```
+Open your command prompt/terminal and run the appropriate command for your Python version:
+
+* **For Python 3.7 (Original):**
+  ```cmd
+  pip install -r requirements.txt
+  ```
+
+* **For Python 3.11+ (Modern installations):**
+  ```cmd
+  pip install -r requirements_py311.txt
+  ```
 
 ### 4. Download NLTK Datasets
 NLTK requires downloading lexical resources (stopwords and lemmatizers) before execution. Run the batch script:
