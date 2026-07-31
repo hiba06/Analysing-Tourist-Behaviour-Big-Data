@@ -1,0 +1,5 @@
+download and install python 3.7.0
+then opne command prompt and then copy and paste all commands from requirements.txt file to install aall packages
+thn double click on download_nltk.bat file that will opne window and in that window click on 'Download' button to download all packages and once downloaded
+then window will turn to green colour then close window
+and then double click on run.bat file that will open JUPYTER page and in that page click on 'Tourist.ipynb' notebook file where you can see code and output
