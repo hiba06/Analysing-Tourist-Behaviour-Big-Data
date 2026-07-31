@@ -47,13 +47,10 @@ The project is built using:
 │   ├── tfidf.txt                # Saved TF-IDF Vectorizer (pickle)
 │   └── tfidf_X.txt.npy          # Precomputed TF-IDF feature matrix (numpy)
 ├── .gitignore                   # Files and directories ignored by Git (caches, log files, checkpoints)
-├── DatasetLink.txt              # Kaggle source link for the Flickr London dataset
 ├── download_nltk.bat            # Windows batch script to trigger NLTK downloads
 ├── nltkdownload.py              # Python script containing NLTK download logic
 ├── requirements.txt             # Standard pip dependency list
 ├── run.bat                      # Windows batch script to launch Jupyter Notebook
-├── SCREENS.docx                 # Execution screenshots and analysis output reference
-├── Tourist.html                 # HTML export of the executed Jupyter Notebook
 ├── Tourist.ipynb                # Main Jupyter Notebook containing the code and analysis
 └── README.md                    # Project documentation (this file)
 ```
